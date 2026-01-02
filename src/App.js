@@ -27,8 +27,8 @@ function App() {
               Download the EarlyJobs app and start your career journey today
             </p>
             <DownloadButton 
-              androidUrl="https://play.google.com/store/apps/details?id=com.earlyjobs"
-              iosUrl="https://apps.apple.com/app/earlyjobs"
+              androidUrl="https://play.google.com/store/apps/details?id=com.victaman.earlyjobs&hl=en_IN"
+              iosUrl="https://apps.apple.com/in/app/earlyjobs-ai/id6754554572"
               webUrl="https://earlyjobs.ai"
             />
           </div>

@@ -8,8 +8,8 @@ import SEOHead from '@/components/SEOHead';
 import styles from './page.module.css';
 
 const DOWNLOAD_URLS = {
-  android: 'https://play.google.com/store/apps/details?id=com.earlyjobs',
-  ios: 'https://apps.apple.com/app/earlyjobs',
+  android: 'https://play.google.com/store/apps/details?id=com.victaman.earlyjobs&hl=en_IN',
+  ios: 'https://apps.apple.com/in/app/earlyjobs-ai/id6754554572',
   web: 'https://earlyjobs.ai',
 };
 

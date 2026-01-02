@@ -5,8 +5,8 @@ import { trackDownloadClick } from '@/utils/marketingData';
 import styles from './DownloadButton.module.css';
 
 const DownloadButton = ({ 
-  androidUrl = 'https://play.google.com/store/apps/details?id=com.earlyjobs',
-  iosUrl = 'https://apps.apple.com/app/earlyjobs',
+  androidUrl = 'https://play.google.com/store/apps/details?id=com.victaman.earlyjobs&hl=en_IN',
+  iosUrl = 'https://apps.apple.com/in/app/earlyjobs-ai/id6754554572',
   webUrl = 'https://earlyjobs.ai'
 }) => {
   const platform = detectPlatform();

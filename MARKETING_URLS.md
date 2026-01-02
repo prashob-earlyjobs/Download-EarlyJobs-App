@@ -146,13 +146,13 @@ https://app.earlyjobs.ai/?utm_source=affiliate&utm_medium=affiliate&utm_campaign
 ### Android Device
 When accessed from an Android device, the app will:
 - Detect platform: `android`
-- Redirect to: `https://play.google.com/store/apps/details?id=com.earlyjobs`
+- Redirect to: `https://play.google.com/store/apps/details?id=com.victaman.earlyjobs&hl=en_IN`
 - Track all UTM parameters
 
 ### iOS Device
 When accessed from an iOS device, the app will:
 - Detect platform: `ios`
-- Redirect to: `https://apps.apple.com/app/earlyjobs`
+- Redirect to: `https://apps.apple.com/in/app/earlyjobs-ai/id6754554572`
 - Track all UTM parameters
 
 ### Web Browser
@@ -229,7 +229,7 @@ For each visit, the following data is stored in MongoDB:
      ```json
      {
        "action": "download_clicked",
-       "downloadUrl": "https://play.google.com/store/apps/details?id=com.earlyjobs",
+       "downloadUrl": "https://play.google.com/store/apps/details?id=com.victaman.earlyjobs&hl=en_IN",
        "timestamp": "2024-01-15T10:30:01Z"
      }
      ```

@@ -32,9 +32,9 @@ export const getDownloadUrl = (config) => {
   
   switch (platform) {
     case 'android':
-      return config.androidUrl || 'https://play.google.com/store/apps/details?id=com.earlyjobs';
+      return config.androidUrl || 'https://play.google.com/store/apps/details?id=com.victaman.earlyjobs&hl=en_IN';
     case 'ios':
-      return config.iosUrl || 'https://apps.apple.com/app/earlyjobs';
+      return config.iosUrl || 'https://apps.apple.com/in/app/earlyjobs-ai/id6754554572';
     case 'web':
     default:
       return config.webUrl || 'https://earlyjobs.ai';
