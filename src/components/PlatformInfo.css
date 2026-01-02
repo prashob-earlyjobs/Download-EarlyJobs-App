@@ -1,0 +1,44 @@
+.platform-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  margin-bottom: 30px;
+}
+
+.platform-icon {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.platform-details {
+  flex: 1;
+}
+
+.platform-name {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.platform-description {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .platform-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .platform-icon {
+    font-size: 40px;
+  }
+}
+
