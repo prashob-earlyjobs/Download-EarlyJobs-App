@@ -45,7 +45,7 @@ export default function Home() {
               <h1 className={styles.heroTitle}>Find Nearby Jobs & Start Your Career</h1>
               <p className={styles.heroDescription}>
                 Download the EarlyJobs app to find verified job openings near you. 
-                Apply easily, get faster interview calls, and start your career today.
+
               </p>
             </div>
           </header>

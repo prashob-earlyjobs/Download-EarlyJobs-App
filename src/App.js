@@ -32,7 +32,6 @@ function App() {
             <p className="hero-subtitle">Find Nearby Jobs & Start Your Career</p>
             <p className="hero-description">
               Download the EarlyJobs app to find verified job openings near you. 
-              Apply easily, get faster interview calls, and start your career today.
             </p>
           </div>
         </header>
