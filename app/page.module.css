@@ -38,11 +38,11 @@
 .logoContainer {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .logo {
-  width: 180px;
+  width: 140px;
   height: auto;
   object-fit: contain;
 }
@@ -302,7 +302,7 @@
   }
   
   .logo {
-    width: 200px;
+    width: 160px;
   }
   
   .mainContent {
@@ -332,11 +332,11 @@
   }
   
   .heroTitle {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .logo {
-    width: 220px;
+    width: 180px;
   }
   
   .featuresGrid {
