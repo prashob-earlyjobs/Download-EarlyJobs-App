@@ -5,10 +5,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://app.earlyjobs.ai';
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'EarlyJobs - Download App | Your Gateway to Early Career Opportunities',
+    default: 'EarlyJobs App Download | Find Nearby Jobs & Start Your Career',
     template: '%s | EarlyJobs',
   },
-  description: 'Download the EarlyJobs app and start your career journey today. Get exclusive access to early career opportunities, connect with top employers, and find the perfect job matches tailored for you. Available on Android, iOS, and Web.',
+  description: 'Download the EarlyJobs app to find verified job openings near you. Apply easily, get faster interview calls, and start your career today.',
   keywords: [
     'EarlyJobs',
     'job search',
@@ -35,8 +35,8 @@ export const metadata = {
     locale: 'en_US',
     url: siteUrl,
     siteName: 'EarlyJobs',
-    title: 'EarlyJobs - Download App | Your Gateway to Early Career Opportunities',
-    description: 'Download the EarlyJobs app and start your career journey today. Get exclusive access to early career opportunities, connect with top employers, and find the perfect job matches.',
+    title: 'EarlyJobs App Download | Find Nearby Jobs & Start Your Career',
+    description: 'Download the EarlyJobs app to find verified job openings near you. Apply easily, get faster interview calls, and start your career today.',
     images: [
       {
         url: '/og-image.png',
@@ -48,8 +48,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EarlyJobs - Download App | Your Gateway to Early Career Opportunities',
-    description: 'Download the EarlyJobs app and start your career journey today. Get exclusive access to early career opportunities.',
+    title: 'EarlyJobs App Download | Find Nearby Jobs & Start Your Career',
+    description: 'Download the EarlyJobs app to find verified job openings near you. Apply easily, get faster interview calls, and start your career today.',
     images: ['/og-image.png'],
     creator: '@earlyjobs',
     site: '@earlyjobs',
