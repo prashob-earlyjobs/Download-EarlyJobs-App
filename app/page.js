@@ -36,8 +36,8 @@ export default function Home() {
                 <Image
                   src="/logo512.png"
                   alt="EarlyJobs Logo"
-                  width={140}
-                  height={140}
+                  width={160}
+                  height={160}
                   priority
                   className={styles.logo}
                 />
